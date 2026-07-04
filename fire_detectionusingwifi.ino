@@ -5,11 +5,11 @@
 #define Buzzer 33
 #define Sensor 32
 
-const char* ssid = "zoom";//Enter your SSID
-const char* password = "mor123@@";//Enter your password
+const char* ssid = "SSID";//Enter your SSID
+const char* password = "Password";//Enter your password
 
-String phoneNumber = "+201019972777"; //country_code + whats app phone number
-String apiKey = "7051607";  //enter apikey of the whats app bot
+String phoneNumber = "+201234567890"; //country_code + whats app phone number
+String apiKey = "ApiKey";  //enter apikey of the whats app bot
 
 void setup() {
   Serial.begin(115200);
